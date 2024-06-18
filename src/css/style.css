@@ -275,7 +275,11 @@
 
 /*** service End ***/
 
-
+.activeItem {
+    color: orange;
+    border-bottom: 2px solid orange;
+    border-radius: 2px;
+}
 /*** Fruits Start ***/
 .fruite .tab-class .nav-item a.active {
     background: var(--bs-secondary) !important;
